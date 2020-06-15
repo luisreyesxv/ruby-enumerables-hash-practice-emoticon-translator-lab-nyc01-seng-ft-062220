@@ -30,7 +30,7 @@ def get_english_meaning(emoticon_library,emoticon)
 
 test
 
-  
+
 #  test =library.find{|meaning_key,language_hash|  language_hash[:japanese]==emoticon || language_hash[:english]== emoticon}
 
   ##if test == nil
