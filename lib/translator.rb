@@ -20,7 +20,7 @@ def get_japanese_emoticon(emoticon_library,english_emoticon)
 
   #answer = load_library(emoticon_library)
   #answer.find{|meaning_key,language_hash| language_hash[:english]==english_emoticon}[1][:japanese]
-emoticon_library[get_english_meaning(emoticon_english_emoticon)]
+emoticon_library[get_english_meaning(emoticon_library,english_emoticon)]
 
 
 
