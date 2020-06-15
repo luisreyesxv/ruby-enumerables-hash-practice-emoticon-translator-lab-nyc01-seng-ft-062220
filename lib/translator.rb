@@ -34,6 +34,6 @@ def get_english_meaning(emoticon_library,emoticon)
   if test == nil
     return "Sorry, that emoticon was not found"
   else
-    test[0]
+  return  test[0]
   end
 end
