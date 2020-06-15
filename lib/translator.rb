@@ -26,11 +26,16 @@ end
 
 def get_english_meaning(emoticon_library,emoticon)
   library = load_library(emoticon_library)
-  test =library.find{|meaning_key,language_hash|  language_hash[:japanese]==emoticon || language_hash[:english]== emoticon}
+  test = library.find{|meaning_key,language_hash| language_hash.has_value?(emoticon)}
 
-  if test == nil
-    return "Sorry, that emoticon was not found"
-  else
-    test[0]
-  end
+test
+
+  
+#  test =library.find{|meaning_key,language_hash|  language_hash[:japanese]==emoticon || language_hash[:english]== emoticon}
+
+  ##if test == nil
+  #  return "Sorry, that emoticon was not found"
+#  else
+#    test[0]
+#  end
 end
