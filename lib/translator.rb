@@ -23,9 +23,9 @@ def get_japanese_emoticon(emoticon_library,english_emoticon)
   if !meaning[get_english_meaning(emoticon_library,english_emoticon)]
     return "Sorry, that emoticon was not found"
   else
-    meaning[get_english_meaning(emoticon_library,english_emoticon)][:japanese]  
-  end  
-    
+    meaning[get_english_meaning(emoticon_library,english_emoticon)][:japanese]
+  end
+
 
 
 
