@@ -18,9 +18,9 @@ end
 
 def get_japanese_emoticon(emoticon_library,english_emoticon)
 
-  answer = load_library(emoticon_library)
+  meaning = load_library(emoticon_library)
   #answer.find{|meaning_key,language_hash| language_hash[:english]==english_emoticon}[1][:japanese]
-answer[get_english_meaning(emoticon_library,english_emoticon)]
+luis = meaning.[get_english_meaning(emoticon_library,english_emoticon)]
 
 
 
